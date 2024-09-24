@@ -1,0 +1,116 @@
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 >Shareable Resume Form</h1>
+        <form id="resume-form">
+
+            <label for="username">username:</label>
+            <input type="text" id="username" placeholder="enter your user name">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="enter your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="enter your email">
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required placeholder="enter your phone number">
+
+
+            <label for="skills">Skills:</label>
+            <textarea id="skills" name="skills" placeholder="enter yours skills"></textarea>
+
+            <label for="experience">Experience:</label>
+            <textarea id="experience" name="experience" placeholder="enter your workexperience"></textarea>
+
+            <label for="education">Education:</label>
+            <textarea id="education" name="education" placeholder="enter your education"></textarea>
+
+            <button type="submit">Generate Resume</button>
+            <button type="reset">Reset Now</button>
+            
+        </form>
+        <div id="resume-display" contenteditable="true">
+           Your resume will be generated here 
+        </div>
+    </div>
+    <div id="Shareable-link-container" style="display: none;">
+        <h2>shareable link</h2>
+        <p>here is your unique link </p>
+        <a href="#" id="shareable-link" target="_blank"></a>
+        <br>
+        <button id="download-pdf">download as pdf</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+
+<!-- 
+    <div id="Shareable-link-container" style="display: none;">
+        <h2>Shareable Link</h2>
+        <p>Here is the link to view or edit your resume</p>
+        <a href="#" id="Shareable-link" target="_blank"></a>
+        <br>
+        <button id="download-pdf"><b>Download As </b></button>
+    </div> -->
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Shareable Resume Form</h1>
+        <form id="resume-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter your username">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+
+            <label for="skills">Skills:</label>
+            <textarea id="skills" name="skills" placeholder="Enter your skills"></textarea>
+
+            <label for="experience">Experience:</label>
+            <textarea id="experience" name="experience" placeholder="Enter your work experience"></textarea>
+
+            <label for="education">Education:</label>
+            <textarea id="education" name="education" placeholder="Enter your education"></textarea>
+
+            <button type="submit">Generate Resume</button>
+            <button type="reset">Reset Now</button>
+        </form>
+        <div id="resume-display" contenteditable="true">
+           Your resume will be generated here 
+        </div>
+    </div>
+    <div id="shareable-link-container" style="display: none;">
+        <h2>Shareable Link</h2>
+        <p>Here is your unique link:</p>
+        <a href="#" id="shareable-link" target="_blank"></a>
+        <br>
+    </div>
+    <button id="download-pdf">Download as PDF</button>
+    <script src="script.js"></script>
+</body>
+</html>
